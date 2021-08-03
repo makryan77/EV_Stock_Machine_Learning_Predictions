@@ -5,17 +5,10 @@ Machine Learning Project to study and make predictions for Electric Vehicle Stoc
 
 ## Overview & Business Problem
 
-![logo](images/logo.jpeg)
+![logo](Images/Ev_Future.jpg)
 Goal of this project is to analyze the current stock and forecast futures of the four companies.
 Evaluate whether the greater world are onboard with the new future of only electric vehicles.
 
-***
-* How much money to budget for the movie
-* A look at the top competitors
-* Which director to choose
-* When to release the movie
-* How long to make the movie
-***
 
 ## Data
 Stocking trading information was sourced from the yahoo API.
@@ -43,7 +36,7 @@ The machine learning process was started with deep learning algorithm LSTM (Long
 ![LSMT Model Predictions](./Images/LMST_Predictions.jpg)
 
 ***
-Facebook prophet was then also used to make predictions and 
+Facebook prophet was then also used and optimized to make predictions on the four EV stocks as well.
 ![Facebook prophet model predictions](./Images/Facebook_Prophet.jpg)
 
 ***
@@ -55,16 +48,15 @@ Time series models ARIMA and SARIMA were also used to make predictions. SARIMA p
 ## Conclusions
 
 This analysis leads to the following recommendations for creating a movie.
-1. **Spend more money to make more money.**
-There is a positive corrrelation with how much money is budgeted for a film and how much revenue and profit the film will make. Spending more money on the film usually generates more revenue and profit. If you look at the top 5 most profitable movies released in May since 2010, they had an average budget of around $223 million. These were all movies in one of our highest rated genres, Action,Adventure,Sci-Fi.
-2. **Understand your competitors (Walt Disney and Warner Bros) who generate the most revenue per movie.**
-These studios have the highest average grossing revenue for those studios who have made over 100 movies. During May, which is the most profitable month of the year, Walt Disney distributed the top 5 highest profitable movies while Warner Brothers distributed top movies by profit in June and July, the 2nd and 3rd highest average profit months respectively.
-3. **Engage with the top directors (Christopher Nolan and Joe Russo)**
-These top directors have the highest everage rating for movies with more than 30,000 votes in IMDb. Joe Russo and Christopher Nolan directed two of the most profitable films, Captain America: Civil War, and The Dark Knight Rises. They both also direct films in one of the highest rated genres, which is Action,Adventure,Sci-Fi. In addition, they also direct movies for your competitors, Walt Disney and Warner Bros.
-4. **Consider releasing during May which is the month that generates the most profit.**
-It makes the most sense to release your film during May. May, June and July are the most profitable months of the year. The top 5 most profitable movies in May over the last 10 years were distributed by Walt Disney and profited over $500 million combined.
-5. **Consider making your movie longer, rather than shorter.**
-The average ratings of movies tend to increase as the length of the movie increases. Our analysis shows the most positive incerease in ratings for movies in the Action, Advneture, Sci-Fi genre up to 200 minute movies.
+1. **General Automotive Stock Market Trend not included.**
+The general stock market trend of all the rest of the automotive industry was not included during this machine learning process for the EV specific stocks. The inclusion of this trend would have further helped in the painting a clear picture on whether the trend observed and predicted on the EV stocks was unique to the EV sector.
+2. **General Stock Market trend not included.**
+The Stock Market trend in general was also not included in this process and hence the predicted trend of the EV stocks was not compared to the rest of the general market.
+3. **Previously, all the EV stocks were observed to be in a short term uptrend**
+All the EV stocks were orignally observed to be in a short term upward trend though the data was spilt in 70 - 30 proportions to ensure that the short term trend had no impact on the overall predictions.
+4. **Indication of short term interest in the all the EV stocks.**
+The machine learning process predicted a 42 day upward trend for all the four EV stocks and thus showing that there is currently active interest and investment in the EV specific stocks.
+
 
 ## Next Steps
 
