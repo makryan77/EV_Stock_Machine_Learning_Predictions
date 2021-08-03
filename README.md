@@ -39,36 +39,17 @@ advanced techniques like Auto Regressive Integrated Moving Average (ARIMA) and F
 ## Results
 
 ***
-Consider a larger budget for the movie production. This tends to lead towards higher revenue and profits.
-![Budget](./images/budget_profit_revenue.png)
+The machine learning process was started with deep learning algorithm LSTM (Long Short Term Memory). The Mean Absolute Error was used as the metric for optimizing this algorithm. 
+![LSMT Model Predictions](./Images/LMST_Predictions.jpg)
 
 ***
-Make reference to major competitor work (Walt Disney and Warner Bros studios) who statistically generate the most average and total revenue per movie
-![Top Studios](./images/top_studios_revenue.png)
+Facebook prophet was then also used to make predictions and 
+![Facebook prophet model predictions](./Images/Facebook_Prophet.jpg)
 
 ***
-Consider working with the highest rated Directors.
+Time series models ARIMA and SARIMA were also used to make predictions. SARIMA provided predictions with the best MAE for all the four EV stocks.
+![SARIMA model predictions](./Images/SARIMA_Predictions.jpg)
 
-| Director           | Average Rating|
-| -------------      |:-------------:| 
-| Christopher Nolan  |8.455479       | 
-| Lee Unkrich        |8.349254       | 
-| Joe Russo          |8.198621       |
-| S.S. Rajamouli     |8.193333       | 
-| Asif Kapadia       |8.148718       | 
-
-
-***
-Consider releasing movies at the beginning of May as the three most profitable months are May, June and July
-![Average Profit per Month Since 2010](./images/profit_per_month.png)
-![Most profitable Movies for May, June & July](./images/most_profitable_movies.png)
-
-***
-Consider making the movie longer rather than shorter
-
-![graph1](./images/rating_runtime_minutes.png)
-
-***
 
 
 ## Conclusions
@@ -90,13 +71,13 @@ The average ratings of movies tend to increase as the length of the movie increa
 Further analysis could provide even more insight into a more wholestic and inclusive valuation trend of these four companies:
 
 **General market and industry inclusion.**
-Taking into consideration the general trend of the general stock market and the automotive industry as a whole would greatly help with providing a wholesticndfblk;
+Taking into consideration the general trend of the general stock market and the automotive industry as a whole would greatly help with providing a wholestic picture;
 
-**Better qualitative analysis on why studios, writers, directors, actors/actresses, would want to work with Microsoft.**
-Maybe there are certain things they look for from the company producing the film other than money. This could be done by surveys to individual writers/directors/actors.
+**Stock Volume Analysis.**
+Deeper analysis of the volume changes within the stock trading patterns of the four EV stocks would provide a deeper understanding of the trading community interest.
 
-**Better idea of studio culture, the benefits of other studios and how they treat there employees and operate the business.**
-We could look at what HR benefits the studio offers, compensation, community events. Do they have a "feelings Friday?"
+**Publishing all inclusive results on the right medium platform**
+Results and evaluation of the all-inclusive machine learning processes should be published on a wide audience medium platform with the goal of creating the respective 
 
 
 ## For More Information
@@ -109,9 +90,9 @@ For any additional questions, please contact **Brian Matsiko matsikobrian@yahoo.
 
 ```
 ├── README.md                          
-├── final_notebook.ipynb   
+├── Notebooks   
 ├── final_presentation.pdf         
-├── Data                            
+├── Flas                            
 └── Images
 ```
 
