@@ -1,6 +1,5 @@
 <html>
     <head>
-        <title>Machine learning predictions for EV stocks</title>
         <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -11,6 +10,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
+    <center><h1>Machine learning predictions for EV stocks</h1></center>
 <div class="container mt-5">
     {% if flag == True %}
     <form action="/" method="post">
@@ -78,13 +78,13 @@ scales:{
     xAxes:[{
         scaleLabel:{
             display:true,
-            labelString:"Date"
+            labelString:"Days"
         }
     }],
     yAxes:[{
         scaleLabel:{
             display:true,
-            labelString:"Price"
+            labelString:"Forecasted Prices"
         }
     }]
 }
